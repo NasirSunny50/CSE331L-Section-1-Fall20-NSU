@@ -1,0 +1,21 @@
+
+
+
+org 100h
+
+A1 EQU 1
+A2 EQU 2
+A3 EQU 3
+A4 EQU 4
+
+MOV AX,A1
+ADD AX,A2
+ADD AX,A3
+ADD AX,A4
+ADD BX,AX
+
+ret
+
+
+
+
